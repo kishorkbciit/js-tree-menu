@@ -76,7 +76,7 @@ $data ='
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
-		<title>jQuery Stiff Chart Plugin Demo</title>
+		<title>Show Data Tree Structure</title>
 
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
@@ -90,36 +90,6 @@ body { background-color:#fafafa; font-family:"Roboto";}
 	</head>
 
 	<body>
-<div id="jquery-script-menu">
-<div class="jquery-script-center">
-<ul>
-<li><a href="http://www.jqueryscript.net/chart-graph/Animated-Organization-Chart-Tree-Diagram-Plugin-Stiff-Chart.html">Download This Plugin</a></li>
-<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
-</ul>
-<div class="jquery-script-ads"><script type="text/javascript"><!--
-google_ad_client = "ca-pub-2783044520727903";
-/* jQuery_demo */
-google_ad_slot = "2780937993";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-
-
-
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></div>
-<div class="jquery-script-clear"></div>
-</div>
-</div>
-		<!--[if lt IE 8]>
-		    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-
-		<div class="text-center" style="margin-top:150px;">
-			<h1>jQuery Stiff Chart Plugin Demo</h1>
-		</div>
 		
 		<div class="chart-container">
 			<div id="your-chart-name">

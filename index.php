@@ -3,57 +3,64 @@ $json = '{
   "level1": {
     "data-level": "01",
     "data-parent": {
-      "a": ["level1 a1"]
+      "a": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
     }
   },
-  "level2": {
+  "level2_1": {
     "data-level": "02",
-    "parent":"a",
+    "parent": "a",
     "data-child-from": {
-      "a": [
-        "level2 a1",
-        "level2 a2"
-      ]
+      "a": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
     }
   },
-  "level3": {
+  "level3_1": {
     "data-level": "03",
-    "parent":"a02",
+    "parent": "a01",
     "data-child-from": {
-      "a": [
-        "level3 a1",
-        "level3 a2"
-      ]
+      "a": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
     }
   },
-  "level_3": {
+  "level3_2": {
     "data-level": "03",
-    "parent":"a01",
+    "parent": "a02",
     "data-child-from": {
-      "a": [
-        "level3 a1",
-        "level3 a2"
-      ]
-    }
-  },
-  "level4": {
-    "data-level": "04",
-    "parent":"a0202",
-    "data-child-from": {
-      "a": [
-        "level3 a1",
-        "level3 a2"
-      ]
-    }
-  },
-  "level_4": {
-    "data-level": "04",
-    "parent":"a0201",
-    "data-child-from": {
-      "a": [
-        "level3 a1",
-        "level3 a2"
-      ]
+      "a": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
     }
   }
 }';
@@ -129,8 +136,8 @@ foreach($json as $key => $value) {
 			if($key == 'level1') {
 			$data .= '<li data-parent="'.$key2.'">
 			            <div class="the-chart">
-			            	<img src="https://placeimg.com/100/100/animals" alt="">
-			            	<p>'.$value2[0].'</p>
+			            	<img src="'.$value2['title'][0].'" alt="">
+			            	<p>'.$value2['title'][0].'</p>
 			            </div>
 			          </li>';
 			}
@@ -139,12 +146,12 @@ foreach($json as $key => $value) {
 			$data .= '<div class="stiff-chart-level" data-level="'.$value['data-level'].'">
 			      <div class="stiff-child" data-child-from="'.$dataParent.'">
 			        <ul>';
-			for($i=1;$i<=count($value2);$i++) {
+			for($i=1;$i<=count($value2['title']);$i++) {
 			$dataParent = $value['parent'].'0'.$i;
 			$data .= '<li data-parent="'.$dataParent.'">
 			            <div class="the-chart">
-			            	<img src="https://placeimg.com/100/100/animals" alt="">
-			            	<p>'.$value2[$i-1].'</p>
+			            	<img src="'.$value2['img'][$i-1].'" alt="">
+			            	<p>'.$value2['title'][$i-1].'</p>
 			            </div>
 			          </li>';
 			}

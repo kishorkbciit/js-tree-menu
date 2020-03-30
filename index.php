@@ -26,6 +26,10 @@ $json = '{
         "img-url": [
           "https://tineye.com/images/widgets/mona.jpg",
           "https://tineye.com/images/widgets/mona.jpg"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -42,6 +46,10 @@ $json = '{
         "img-url": [
           "1",
           "2"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -58,6 +66,10 @@ $json = '{
         "img-url": [
           "1",
           "2"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -74,6 +86,10 @@ $json = '{
         "img-url": [
           "1",
           "2"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -90,6 +106,10 @@ $json = '{
         "img-url": [
           "1",
           "2"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -106,6 +126,10 @@ $json = '{
         "img-url": [
           "1",
           "2"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -122,6 +146,10 @@ $json = '{
         "img-url": [
           "1",
           "2"
+        ],
+        "button-css": [
+         "background-color: green;",
+	"background-color: red;"
         ]
       }
     }
@@ -168,7 +196,7 @@ foreach($json as $key => $value) {
 		foreach($value1 as $key2 => $value2) {
 			if($key == 'level1') {
 			$data .= '<li data-parent="'.$value['parent'].'">
-			            <div class="the-chart">
+			            <div class="the-chart" style="'.$value2['button-css'][$i-1].'">
 			            	<img src="'.$value2['img-url'][0].'" alt="">
 			            	<p>'.$value2['title'][0].'</p>
 			            </div>
@@ -176,13 +204,13 @@ foreach($json as $key => $value) {
 			}
 			else {
 			$dataParent = $value['parent'];
-			$data .= '<div class="stiff-chart-level" data-level="'.$value['data-level'].'">
+			$data .= '<div class="stiff-chart-level"  data-level="'.$value['data-level'].'">
 			      <div class="stiff-child" data-child-from="'.$dataParent.'">
 			        <ul>';
 			for($i=1;$i<=count($value2['title']);$i++) {
 			$dataParent = $value['parent'].'0'.$i;
 			$data .= '<li data-parent="'.$dataParent.'">
-			            <div class="the-chart">
+			            <div class="the-chart" style="'.$value2['button-css'][$i-1].'">
 			            	<img src="'.$value2['img-url'][$i-1].'" alt="">
 			            	<p>'.$value2['title'][$i-1].'</p>
 			            </div>

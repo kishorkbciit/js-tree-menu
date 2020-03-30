@@ -6,7 +6,7 @@ $json = '{
     "data-parent": {
       "nodes": {
         "title": [
-          "a1"
+          "L1 N1"
         ],
         "img-url": [
           "1"
@@ -20,12 +20,12 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L2 PN1 N1",
+          "L2 PN1 N2"
         ],
         "img-url": [
-          "1",
-          "2"
+          "https://tineye.com/images/widgets/mona.jpg",
+          "https://tineye.com/images/widgets/mona.jpg"
         ]
       }
     }
@@ -36,8 +36,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L3 PN1 N1",
+          "L3 PN1 N2"
         ],
         "img-url": [
           "1",
@@ -52,8 +52,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L3 PN2 N1",
+          "L3 PN2 N2"
         ],
         "img-url": [
           "1",
@@ -68,8 +68,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L4 PN1 N1",
+          "L4 PN1 N2"
         ],
         "img-url": [
           "1",
@@ -84,8 +84,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L4 PN2 N1",
+          "L4 PN2 N2"
         ],
         "img-url": [
           "1",
@@ -100,8 +100,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L4 PN3 N1",
+          "L4 PN3 N2"
         ],
         "img-url": [
           "1",
@@ -116,8 +116,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "L4 PN4 N1",
+          "L4 PN4 N2"
         ],
         "img-url": [
           "1",
@@ -169,7 +169,7 @@ foreach($json as $key => $value) {
 			if($key == 'level1') {
 			$data .= '<li data-parent="'.$value['parent'].'">
 			            <div class="the-chart">
-			            	<img src="'.$value2['title'][0].'" alt="">
+			            	<img src="'.$value2['img-url'][0].'" alt="">
 			            	<p>'.$value2['title'][0].'</p>
 			            </div>
 			          </li>';
@@ -183,7 +183,7 @@ foreach($json as $key => $value) {
 			$dataParent = $value['parent'].'0'.$i;
 			$data .= '<li data-parent="'.$dataParent.'">
 			            <div class="the-chart">
-			            	<img src="'.$value2['img'][$i-1].'" alt="">
+			            	<img src="'.$value2['img-url'][$i-1].'" alt="">
 			            	<p>'.$value2['title'][$i-1].'</p>
 			            </div>
 			          </li>';

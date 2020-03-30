@@ -61,6 +61,70 @@ $json = '{
         ]
       }
     }
+  },
+  "level4_1": {
+    "data-level": "04",
+    "parent": "a0101",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  },
+  "level4_2": {
+    "data-level": "04",
+    "parent": "a0102",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  },
+  "level4_3": {
+    "data-level": "04",
+    "parent": "a0201",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  },
+  "level4_4": {
+    "data-level": "04",
+    "parent": "a0202",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "a1",
+          "a2"
+        ],
+        "img-url": [
+          "1",
+          "2"
+        ]
+      }
+    }
   }
 }';
 $json = json_decode($json,true);

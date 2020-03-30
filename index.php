@@ -2,15 +2,14 @@
 $json = '{
   "level1": {
     "data-level": "01",
+    "parent": "a",
     "data-parent": {
-      "a": {
+      "nodes": {
         "title": [
-          "a1",
-          "a2"
+          "a1"
         ],
         "img-url": [
-          "1",
-          "2"
+          "1"
         ]
       }
     }
@@ -19,7 +18,7 @@ $json = '{
     "data-level": "02",
     "parent": "a",
     "data-child-from": {
-      "a": {
+      "nodes": {
         "title": [
           "a1",
           "a2"
@@ -35,7 +34,7 @@ $json = '{
     "data-level": "03",
     "parent": "a01",
     "data-child-from": {
-      "a": {
+      "nodes": {
         "title": [
           "a1",
           "a2"
@@ -51,7 +50,7 @@ $json = '{
     "data-level": "03",
     "parent": "a02",
     "data-child-from": {
-      "a": {
+      "nodes": {
         "title": [
           "a1",
           "a2"
@@ -104,7 +103,7 @@ foreach($json as $key => $value) {
 		if(is_array($value1))		
 		foreach($value1 as $key2 => $value2) {
 			if($key == 'level1') {
-			$data .= '<li data-parent="'.$key2.'">
+			$data .= '<li data-parent="'.$value['parent'].'">
 			            <div class="the-chart">
 			            	<img src="'.$value2['title'][0].'" alt="">
 			            	<p>'.$value2['title'][0].'</p>

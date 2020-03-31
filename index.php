@@ -6,10 +6,10 @@ $json = '{
     "data-parent": {
       "nodes": {
         "title": [
-          "L1 N1"
+          "Talent Burst"
         ],
         "img-url": [
-          "1"
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ]
       }
     }
@@ -20,12 +20,12 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "L2 PN1 N1",
-          "L2 PN1 N2"
+          "Baljit Gill Manager"
+        
         ],
         "img-url": [
-          "https://tineye.com/images/widgets/mona.jpg",
-          "https://tineye.com/images/widgets/mona.jpg"
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ]
       }
     }
@@ -36,12 +36,21 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "L3 PN1 N1",
-          "L3 PN1 N2"
+          "Ekta Mediratta Team Lead",
+		  "Rob Mcclure Team Lead",
+		  "Garry Dhaliwal Team Lead",
+		  "Joy Roy Team Lead",
+	      "Ravinder Singh Team Lead",
+		  "Deepak Uppal Team Lead"
         ],
         "img-url": [
-          "1",
-          "2"
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		"http://localhost:8888/js-tree-menu/image/tb_logo.png"
+		 
         ]
       }
     }
@@ -52,8 +61,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "L3 PN2 N1",
-          "L3 PN2 N2"
+          "annu",
+          "deepa"
         ],
         "img-url": [
           "1",
@@ -68,12 +77,35 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "L4 PN1 N1",
-          "L4 PN1 N2"
+          "Jyoti Agnihotri Employee",
+		    "Kashif Abidi Employee",
+			  "Khushboo Srivastava Employee",
+			  "Leena Singh Employee",
+			  "Priyanka Pathak Employee",
+			  "Purshotam Sharma Employee",
+			  "Purshotam Sharma Employee",
+			  "Sana Mobin Employee",
+			   "Shri Bhagwan Employee",
+			    "Varun Grover Employee",
+				 "Sana Mobin Employee",
+				  "Khushboo Upadhyay Employee",
+				   "Rajat Das Gupta Employee"
         ],
         "img-url": [
-          "1",
-          "2"
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png"
+         
         ]
       }
     }
@@ -84,12 +116,12 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "L4 PN2 N1",
-          "L4 PN2 N2"
+          "Meghan Veaver Employee",
+          "Dionne Melo Employee"
         ],
         "img-url": [
-          "1",
-          "2"
+         "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+         "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ]
       }
     }
@@ -120,12 +152,101 @@ $json = '{
           "L4 PN4 N2"
         ],
         "img-url": [
-          "1",
-          "2"
+         "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+         "http://localhost:8888/js-tree-menu/image/tb_logo.png"
+        ]
+      }
+    }
+  } ,
+  "level4_6": {
+    "data-level": "04",
+    "parent": "a0104",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "11",
+		  "22",
+          "33"
+        ],
+        "img-url": [
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
+        ]
+      }
+    }
+  },
+  "level4_7": {
+    "data-level": "04",
+    "parent": "a0105",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "11",
+		  "22",
+          "33"
+        ],
+        "img-url": [
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
+        ]
+      }
+    }
+  },
+  "level4_8": {
+    "data-level": "04",
+    "parent": "a0106",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "11",
+		  "22",
+          "33"
+        ],
+        "img-url": [
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
+        ]
+      }
+    }
+  },
+  "level4_5": {
+    "data-level": "04",
+    "parent": "a0103",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "Amit Malik Employee",
+		  "Arvind Singh Employee",
+          "Anuradha Jha Employee"
+        ],
+        "img-url": [
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+		  "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ]
       }
     }
   }
+  ,
+  "level5_1": {
+    "data-level": "05",
+    "parent": "a010101",
+    "data-child-from": {
+      "nodes": {
+        "title": [
+          "L4 PN4 N1",
+          "L4 PN4 N2"
+        ],
+        "img-url": [
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png",
+          "http://localhost:8888/js-tree-menu/image/tb_logo.png"
+        ]
+      }
+    }
+  } 
 }';
 $json = json_decode($json,true);
 $data ='
@@ -148,7 +269,7 @@ $data ='
 		<link href="css/stiff-chart.css" rel="stylesheet" media="screen" />
 		<link href="css/custom.css" rel="stylesheet" media="screen" />
 <style>
-body { background-color:#fafafa; font-family:"Roboto";}
+body { background-color:#666666; font-family:"Roboto";}
 </style>
 	</head>
 

@@ -1,5 +1,5 @@
 .chart-active .the-chart {
-  background-color: #3498db;
+  background-color: #23daec;
   color: #fff;
   border: 1px solid #3498db;
   -webkit-transition: all .5s ease-in-out;
@@ -8,6 +8,13 @@
 .the-chart {
   padding: 7px;
   border: 1px solid #3498db;
+  border-radius: 5px;
+  height: 100%; }
+  
+.the-chart1 {
+  padding: 7px;
+  border: 1px solid #3498db;
+  background-color:#900;
   border-radius: 5px;
   height: 100%; }
 

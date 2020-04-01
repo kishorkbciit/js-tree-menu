@@ -13,8 +13,9 @@ $json = '{
           "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ],
         "css": [
-	"background-color: red",
+	"background-color: 13d6ea",
 	"background-color: green"
+	
         ]
       }
     }
@@ -33,9 +34,10 @@ $json = '{
           "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ],
         "css": [
-	"background-color: red",
-	"background-color: green"
-        ]
+	"background-color: #ff9933",
+	"background-color: 00ccff"
+	
+	  ]
       }
     }
   },
@@ -62,8 +64,12 @@ $json = '{
 		 
         ],
         "css": [
-	"background-color: red",
-	"background-color: green"
+	"background-color: #00ccff",
+	"background-color: #ff9933",
+	"background-color: #00ccff",
+	"background-color: #ff9933",
+	"background-color: #00ccff",
+	"background-color: #ff9933"
         ]
       }
     }
@@ -74,8 +80,8 @@ $json = '{
     "data-child-from": {
       "nodes": {
         "title": [
-          "annu",
-          "deepa"
+          "Example1",
+          "Example2"
         ],
         "img-url": [
           "1",
@@ -125,9 +131,21 @@ $json = '{
          
         ],
         "css": [
-	"background-color: red",
-	"background-color: green"
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff"
         ]
+	
       }
     }
   },
@@ -165,8 +183,8 @@ $json = '{
           "2"
         ],
         "css": [
-	"background-color: red",
-	"background-color: green"
+	"background-color:red",
+	"background-color:green"
         ]
       }
     }
@@ -273,8 +291,9 @@ $json = '{
           "http://localhost:8888/js-tree-menu/image/tb_logo.png"
         ],
         "css": [
-	"background-color: red",
-	"background-color: green"
+	"background-color: #99ffff",
+	"background-color: #00ccff",
+	"background-color: #99ffff"
         ]
       }
     }
@@ -295,7 +314,8 @@ $json = '{
         ],
         "css": [
 	"background-color: red",
-	"background-color: green"
+	"background-color: green",
+	"background-color: red"
         ]
       }
     }

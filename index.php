@@ -335,7 +335,7 @@ $data ='
 
 		<title>Show Data Tree Structure</title>
 
-<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
 		<link href="css/reset-html5.css" rel="stylesheet" media="screen" />
 		<link href="css/micro-clearfix.css" rel="stylesheet" media="screen" />

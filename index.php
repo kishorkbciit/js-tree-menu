@@ -131,19 +131,19 @@ $json = '{
          
         ],
         "css": [
-	"background-color: #99ffff",
-	"background-color: #00ccff",
-	"background-color: #99ffff",
-	"background-color: #00ccff",
-	"background-color: #99ffff",
-	"background-color: #00ccff",
-	"background-color: #99ffff",
-	"background-color: #00ccff",
-	"background-color: #99ffff",
-	"background-color: #00ccff",
-	"background-color: #99ffff",
-	"background-color: #00ccff",
-	"background-color: #99ffff"
+	"background-color: #99ffff;font-size: 14px;",
+	"background-color: #00ccff;font-size: 14px;",
+	"background-color: #99ffff;font-size: 14px;",
+	"background-color: #00ccff;font-size: 14px;",
+	"background-color: #99ffff;font-size: 14px;",
+	"background-color: #00ccff;font-size: 14px;",
+	"background-color: #99ffff;font-size: 14px;",
+	"background-color: #00ccff;font-size: 14px;",
+	"background-color: #99ffff;font-size: 14px;",
+	"background-color: #00ccff;font-size: 14px;",
+	"background-color: #99ffff;font-size: 14px;",
+	"background-color: #00ccff;font-size: 14px;",
+	"background-color: #99ffff;font-size: 14px;"
         ]
 	
       }
